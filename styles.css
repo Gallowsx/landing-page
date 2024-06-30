@@ -1,4 +1,33 @@
+/* MASTER */
+body {margin: 0;}
+
 /* HEADER */
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: white;
+    margin: 0;
+}
+
+.Logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.header-list {
+    display: flex;
+    list-style: none;
+    gap: 18px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
 
 /* BODY 1 */
 
