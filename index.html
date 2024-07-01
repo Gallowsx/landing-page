@@ -5,7 +5,7 @@
         <title>Landing Page Project</title>
         <link rel="stylesheet" href="styles.css">
         <style>
-            body { font-family: Arial, Helvetica, sans-serif;}
+            body {font-family: Arial, Helvetica, sans-serif;}
         </style>
     </head>
 
@@ -23,40 +23,78 @@
             <li>header link three</li>
         </ul>
     </div>
+
+
         <!-- BODY 1 -->
-        <div class="MainText">
-            <div class="main-title"><p>This website is awesome</p></div>
-            <div class="subtext"><p>This website has some subtext that goes here under the main title. 
-                It's a smaller font and the color is lower contrast.</p>
+        <div class="Hero-Container">
+
+            <div class="Hero-Left">
+                <div class="main-title">This website is awesome</div>
+
+                <div class="subtext">This website has some subtext that goes here under the main title. 
+                It's a smaller font and the color is lower contrast.
+                </div>
+                <div class="button">
+                    <button>Sign Up</button>
+                </div>
             </div>
-            <div class="button">
-                <button>Sign Up</button>
+
+            <div class="Hero-Right">
+                <img class="heror" src="images/landscapex.jpg" alt="A Placeholder Image" width="500px" height="350px">
             </div>
-            <img src="images/landscapex.jpg" alt="A Placeholder Image" width="500px" height="350px">
+
         </div>
+
 
         <!-- BODY 2 -->
         <div class="Center-Top">
             <div class="head"><h1>Some random information.</h1></div>
-            <ul>
-                <li><img src="images/earth.png" alt="img1" width="150px" height="150px">Subtext below image.</li>
-                <li><img src="images/exoplanet.png" alt="img2" width="150px" height="150px">Subtext below image.</li>
-                <li><img src="images/mars.png" alt="img3" width="150px" height="150px">Subtext below image.</li>
-                <li><img src="images/moon.png" alt="img4" width="150px" height="150px">Subtext below image.</li>
-            </ul>
+
+            <div class="planet-card">
+
+                <div class="card">
+                    <img src="images/earth.png" alt="img1" width="150px" height="150px">
+                    <div class="text">This might be Earth!</div>
+                </div>
+
+                <div class="card">    
+                    <img src="images/exoplanet.png" alt="img2" width="150px" height="150px">
+                    <div class="text">This might be Jupiter!</div>
+                </div>
+  
+                <div class="card">
+                    <img src="images/mars.png" alt="img3" width="150px" height="150px">
+                    <div class="text">Probably Mars!</div>
+                </div>
+
+                <div class="card">
+                    <img src="images/moon.png" alt="img4" width="150px" height="150px">
+                    <div class="text">The Moon? Probably?</div>
+                </div>
+
+            </div>
+
         </div>
+
 
         <!-- BODY 3 -->
         <div class="Center-Bottom">
-            <div class="Quote">A bussin' ass quote about something neat.</div>
-            <div class="Credit">-The Guy Who Said It</div>
+            <div class="Quote">Astronomy compels the soul to look upwards and leads us from this world to another.
+            </div>
+            <div class="Credit">-Some Dude Named Playdough</div>
         </div>
 
         <!-- CALL TO ACTION -->
          <div class="cta">
-            <h2>Call to Action! It's time!</h2>
-            <div class="subaction">Sign up for our product by clicking that button right over there!</div>
-            <button>Sign up</button>
+            <div class="cta-container">
+                <div class="leftmode">
+                    <div class="ctaheader">Call to Action! It's time!</div>
+                    <div class="subaction">Sign up for our product by clicking that button right over there!</div>
+                </div>
+                <div class="rightmode">
+                    <button class="bottombutton">Sign up</button>
+                </div>
+            </div>
          </div>
 
         <!-- FOOTER -->
